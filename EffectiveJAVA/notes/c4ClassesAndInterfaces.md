@@ -19,5 +19,9 @@ affecting the correctness of the program. (Factor out the commonalities to remov
 
 Interfaces should be used only to define types. They should not be used merely to export constants.
 
+On a side note, I cannot maintain a common constant class or Interface because maintaining changes
+would become difficult as changes would not be localised. Maybe after introduction of Jenkins,
+things will be sorted. Currently, I am localising the constants in their origin class itself.
+
 ## Never put multiple top-level classes or interfaces in a single source file.
 

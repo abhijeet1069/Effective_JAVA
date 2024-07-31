@@ -35,9 +35,27 @@ public class MemoryAndRuntime {
 
     //Enter your operations here
     private static void performOperations() {
-        PreferPrimitives object = new PreferPrimitives();
-        object.sum();
-        }
+        statement();
+        //statement1();
     }
+
+    public static String statement(){
+        String result = "";
+        for(int i = 0;i < 100_000_000; i++){
+            result += i;
+        }
+        return result;
+    }
+
+    public static String statement1(){
+        StringBuilder result = new StringBuilder();
+        for(int i = 0;i < 100_000_000; i++){
+            result.append(i);
+        }
+        return result.toString();
+    }
+
+}
+
 
 
