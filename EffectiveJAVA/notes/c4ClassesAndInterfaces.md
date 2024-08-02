@@ -2,8 +2,8 @@
 
 ## Minimize the accessibility of classes and members
 
-A well-designed component hides all its implementation details, cleanly separating its API from its implementation. This concept, known as 
-information hiding or encapsulation.
+A well-designed component hides all its implementation details, cleanly separating its API from its implementation. 
+This concept, known as information hiding or encapsulation.
 Use the lowest possible access level consistent with the proper functioning of the software you are writing.
 
 Liskov Substitution Principle : A parent class should be replaceable with object of its child classes without
